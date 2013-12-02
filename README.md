@@ -23,9 +23,14 @@ brew install nginx.rb --with-github-module=agentzh/headers-more-nginx-module
 
 ###Uni2ascii
 
-Convert for unicode and ascii 
+Converts between UTF-8 Unicode and 7-bit ASCII equivalents
 
 Install
 ```
-brew install --debug --verbose uni2ascii
+brew install uni2ascii.rb
+```
+
+eg.
+```
+alias tree="tree|ascii2uni -a K"
 ```
