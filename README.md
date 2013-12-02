@@ -20,3 +20,12 @@ Support to add 3rd party module from github, eg.
 ```
 brew install nginx.rb --with-github-module=agentzh/headers-more-nginx-module
 ```
+
+###Uni2ascii
+
+Convert for unicode and ascii 
+
+Install
+```
+brew install --debug --verbose uni2ascii
+```
